@@ -7,7 +7,7 @@
 ; Constantes
 ;=================
 
-BackgroundColor = $48
+BackgroundColor = $00
 BallHeight = $02
 BallStartX = $7A
 BallStartY = $5E
@@ -337,8 +337,6 @@ EndCollision:
 	ROR
 	ADC BallPositionX
 	STA BallPositionX
-	LDA #$00
-	STA COLUBK
 	LDA %00000001
 	STA CTRLPF
 	LDX #0
