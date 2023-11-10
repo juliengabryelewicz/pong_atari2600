@@ -181,7 +181,6 @@ VerticalSync:
 CheckJoystick:
 	LDA #0
 	STA Player0Delta
-	STA Player1Delta
 	LDA VictoryTime
 	BNE NoInput
 Player0Up:
